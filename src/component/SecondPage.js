@@ -15,11 +15,7 @@ function SecondPage() {
           КРОК
         </p>
         <div
-          style={{
-            position: "relative",
-            bottom: "-3rem",
-            alignSelf: "flex-end",
-          }}
+          className="secondButtonHandler"
         >
           <button>
             <strong
@@ -32,7 +28,7 @@ function SecondPage() {
           </button>
         </div>
       </div>
-      <Background/>
+      <Background />
     </div>
   );
 }

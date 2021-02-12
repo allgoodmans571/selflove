@@ -10,35 +10,15 @@ function StartPage() {
         <h2>Твой LoveInsight</h2>
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          color: "#ff645a",
-          height: "25rem",
-          maxWidth: "70rem",
-          margin: "16% auto auto auto",
-          textAlign: "center",
-        }}
-      >
-        <p
-          style={{
-            fontSize: "55px",
-          }}
-        >
+      <div className="startPageTitle">
+        <p>
           <strong>Генерируй свой инсайт!</strong>
         </p>
         <div>
           <button
             className="startButton"
             style={{
-              position: "relative",
               backgroundImage: `url(${AtomicIcon})`,
-              backgroundSize: "100px 200px",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              // width: "100%",
-              // height: "100%",
             }}
           />
         </div>
