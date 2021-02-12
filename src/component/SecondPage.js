@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Background from "./Background";
+import Context from "../context";
 
 function SecondPage() {
+  const { setScreen } = useContext(Context);
+
   return (
     <div className="conteiner">
       <Background />
@@ -15,7 +18,9 @@ function SecondPage() {
           Больше читать — лови (активная ссылка) подборку книг из библиотеки
           КРОК
         </p>
-        <div className="secondButtonHandler">
+        <div
+          className="secondButtonHandler"
+        >
           <button>
             <strong
               style={{

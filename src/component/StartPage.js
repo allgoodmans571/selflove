@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import Background from "./Background";
 import AtomicIcon from "../images/atomic.svg";
+import Context from "../context";
 
 function StartPage() {
+  const { setActiveScreen } = useContext(Context);
+
   return (
     <div className="conteiner">
       <Background />
@@ -21,6 +24,7 @@ function StartPage() {
             style={{
               backgroundImage: `url(${AtomicIcon})`,
             }}
+            onClick={() => setActiveScreen(1)}
           />
         </div>
       </div>
