@@ -18,9 +18,7 @@ function SecondPage() {
           Больше читать — лови (активная ссылка) подборку книг из библиотеки
           КРОК
         </p>
-        <div
-          className="secondButtonHandler"
-        >
+        <div className="secondButtonHandler">
           <button>
             <strong
               style={{
