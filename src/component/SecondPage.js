@@ -4,6 +4,7 @@ import Background from "./Background";
 function SecondPage() {
   return (
     <div className="conteiner">
+      <Background />
       <div className="title">
         <h1>CROC</h1>
         <h2>Твой LoveInsight</h2>
@@ -14,9 +15,7 @@ function SecondPage() {
           Больше читать — лови (активная ссылка) подборку книг из библиотеки
           КРОК
         </p>
-        <div
-          className="secondButtonHandler"
-        >
+        <div className="secondButtonHandler">
           <button>
             <strong
               style={{
@@ -28,7 +27,6 @@ function SecondPage() {
           </button>
         </div>
       </div>
-      <Background />
     </div>
   );
 }

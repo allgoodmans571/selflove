@@ -5,6 +5,7 @@ import AtomicIcon from "../images/atomic.svg";
 function StartPage() {
   return (
     <div className="conteiner">
+      <Background />
       <div className="title">
         <h1>CROC</h1>
         <h2>Твой LoveInsight</h2>
@@ -23,7 +24,6 @@ function StartPage() {
           />
         </div>
       </div>
-      <Background />
     </div>
   );
 }
