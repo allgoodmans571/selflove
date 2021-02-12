@@ -19,7 +19,7 @@ function SecondPage() {
           КРОК
         </p>
         <div className="secondButtonHandler">
-          <button>
+          <button onClick={setScreen}>
             <strong
               style={{
                 color: "#4A61E4",
