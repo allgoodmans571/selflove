@@ -1,13 +1,11 @@
-import GenButton from "./components/GenButton";
+import "./App.css";
+import SecondPage from "./component/SecondPage";
+import StartPage from "./component/StartPage";
 
 function App() {
   return (
-    <div className="wrapper">
-      <div className="logo">
-        <p>CROC</p>
-        <p>Твой LoveInsight</p>
-      </div>
-      <GenButton />
+    <div>
+      <SecondPage />
     </div>
   );
 }

@@ -13,18 +13,299 @@ code {
     monospace;
 }
 
-.logo {
-  color: #ff645a;
-  font-style: bold;
-  font-size: 50px;
-  margin-top: 0;
+@media (min-width: 150px) and (max-width: 1390px) {
+  .content button {
+    width: 300px;
+    height: 90px;
+  }
+  .startButton {
+    z-index: 5;
+    background: #ff645a;
+    font-size: 25px;
+    border: 0px solid #ccc;
+    border-radius: 6em;
+    width: 250px;
+    height: 120px;
+    margin: auto;
+    border: 2px solid lightgray;
+    background-size: 80px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .secondButtonHandler {
+    z-index: 2;
+    align-self: center;
+    margin: auto 2.5rem auto 0;
+    bottom: -10rem;
+  }
+
+  .title {
+    position: absolute;
+    /* top: -3rem; */
+    left: 1rem;
+    color: #ff645a;
+  }
+
+  .startPageTitle {
+    display: flex;
+    flex-direction: column;
+    color: #ff645a;
+    height: 25rem;
+    max-width: 70rem;
+    margin: 50% auto auto auto;
+    text-align: center;
+  }
+
+  .startPageTitle p {
+    z-index: 1;
+    font-size: 45px;
+  }
+
+  .title h1 {
+    font-size: 55px;
+  }
+  .title h2 {
+    margin-top: -3rem;
+    font-size: 35px;
+  }
+  .content p {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    max-width: 17rem;
+    font-size: 30px;
+  }
+
+  #bigOrange {
+    z-index: 0;
+    position: fixed;
+    left: 75%;
+    top: 15%;
+  }
+
+  #blue {
+    z-index: 1;
+    position: fixed;
+    left: 80%;
+    top: -40%;
+  }
+
+  #smallOrange {
+    z-index: 1;
+    position: fixed;
+    left: 17%;
+    top: -70%;
+  }
+  #green {
+    z-index: 0;
+    position: fixed;
+    left: 15%;
+    top: 65%;
+  }
 }
 
-.logo p {
-  margin: 0;
-  margin-bottom: 10px;
+@media (min-width: 1390px) and (max-width: 1790px) {
+  .content button {
+    width: 400px;
+    height: 90px;
+  }
+  .startButton {
+    background: #ff645a;
+    font-size: 25px;
+    border: 0px solid #ccc;
+    border-radius: 6em;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    background-size: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .startPageTitle {
+    display: flex;
+    flex-direction: column;
+    color: #ff645a;
+    height: 25rem;
+    max-width: 70rem;
+    margin: 16% auto auto auto;
+    text-align: center;
+  }
+
+  .startPageTitle p {
+    font-size: 45px;
+  }
+  .secondButtonHandler {
+    align-self: flex-end;
+    bottom: -3rem;
+  }
+
+  .title {
+    position: absolute;
+    top: -3rem;
+    left: 1rem;
+    color: #ff645a;
+  }
+
+  .title h1 {
+    font-size: 75px;
+  }
+  .title h2 {
+    margin-top: -2rem;
+    font-size: 75px;
+  }
+  .content p {
+    max-width: 57rem;
+    font-size: 44px;
+  }
+
+  #bigOrange {
+    z-index: 0;
+    position: fixed;
+    left: 72%;
+    top: 55%;
+  }
+
+  #blue {
+    z-index: 1;
+    position: fixed;
+    left: 64%;
+    top: 90%;
+  }
+
+  #smallOrange {
+    z-index: 1;
+    position: fixed;
+    left: -17%;
+    top: 60%;
+  }
+  #green {
+    z-index: 0;
+    position: fixed;
+    left: -15%;
+    top: 85%;
+  }
 }
 
-.GBwrapper {
+@media (min-width: 1800px) {
+  .content button {
+    width: 400px;
+    height: 90px;
+  }
+  .startButton {
+    background: #ff645a;
+    font-size: 25px;
+    border: 0px solid #ccc;
+    border-radius: 6em;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    background-size: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .startPageTitle {
+    display: flex;
+    flex-direction: column;
+    color: #ff645a;
+    height: 25rem;
+    max-width: 70rem;
+    margin: 16% auto auto auto;
+    text-align: center;
+  }
+  .startPageTitle p {
+    font-size: 55px;
+  }
+
+  .secondButtonHandler {
+    position: relative;
+    align-self: flex-end;
+    bottom: -3rem;
+  }
+
+  .title {
+    position: absolute;
+    top: -3rem;
+    left: 1rem;
+    color: #ff645a;
+  }
+
+  .title h1 {
+    font-size: 85px;
+  }
+  .title h2 {
+    margin-top: -2rem;
+    font-size: 85px;
+  }
+  .content p {
+    max-width: 67rem;
+    font-size: 54px;
+  }
+
+  #bigOrange {
+    z-index: 0;
+    position: fixed;
+    left: 72%;
+    top: 55%;
+  }
+
+  #blue {
+    z-index: 1;
+    position: fixed;
+    left: 64%;
+    top: 90%;
+  }
+
+  #smallOrange {
+    z-index: 1;
+    position: fixed;
+    left: -17%;
+    top: 60%;
+  }
+  #green {
+    z-index: 0;
+    position: fixed;
+    left: -15%;
+    top: 85%;
+  }
+}
+
+.secondButtonHandler {
+  position: relative;
+}
+
+.conteiner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #384bb7;
+}
+
+.content {
   display: flex;
+  flex-direction: column;
+  color: #ff645a;
+  height: 25rem;
+  max-width: 70rem;
+  margin: 16% auto auto 12%;
+}
+
+.content button {
+  background: #ff645a;
+  font-size: 25px;
+  border: 0px solid #ccc;
+  border-radius: 6em;
+  margin: auto;
+}
+
+.backGround {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
