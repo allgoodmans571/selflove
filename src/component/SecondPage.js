@@ -55,8 +55,10 @@ function SecondPage() {
 
       <div className="content">
         <p id="img">
-          {tip[tips]} <br />
-          <a href={tipURL[tips]}>Лови!</a> {tipLovi[tips]}
+          <b>{tip[tips]}</b> <br />
+          <i>
+            <a href={tipURL[tips]}>Лови!</a> {tipLovi[tips]}
+          </i>
         </p>
         <div className="secondButtonHandler">
           <button
