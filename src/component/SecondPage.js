@@ -29,18 +29,7 @@ function SecondPage() {
   ];
 
   async function handleSubmit() {
-    let pic = tipN[tips];
-    let response = await fetch("http://localhost:8080/social", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify({ pic }),
-    });
-
-    await setImage(response.image);
-    console.log(image);
-    await console.log(response);
+    window.open(`http://217.73.58.220:8080/${tipN[tips]}`);
   }
 
   const tipN = ["books", "CROCLMS", "BH", "fitmost", "Meditopia", "webinar18"];
@@ -64,7 +53,7 @@ function SecondPage() {
         </p>
         <div className="secondButtonHandler">
           <button
-            onClick={async () => {
+            onClick={() => {
               handleSubmit();
             }}
           >
